@@ -1,4 +1,4 @@
-import { 
+import {
   Logo,
   Words,
   Header as ArwesHeader,
@@ -86,13 +86,13 @@ const Header = props => {
         <Clickable className={classes.clickable} onClick={onNav}>
           <Highlight className={classes.button} animate layer="header">
             <Link className={classes.link} to="/upcoming">
-            <i className="material-icons">update</i>Upcoming</Link>
+              <i className="material-icons">update</i>Upcoming</Link>
           </Highlight>
         </Clickable>
         <Clickable className={classes.clickable} onClick={onNav}>
           <Highlight className={classes.button} animate layer="header">
             <Link className={classes.link} to="/history">
-            <i className="material-icons">history</i>History</Link>
+              <i className="material-icons">history</i>History</Link>
           </Highlight>
         </Clickable>
       </nav>
